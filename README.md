@@ -9,9 +9,10 @@ apt-get upgrade
 apt-get install git
 apt-get install python3
 apt-get install python3-pip
+pip install requests
 git clone https://github.com/Xenzi-XN1/UserId
 cd UserId
-bash install.sh
+python userid.py <url>
 ````
 ### requires the Termux application 
 get the Termux app on F-droid.org
